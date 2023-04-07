@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  background-color: rgb(70, 70, 172);
+  padding: 14px;
+  color: #fff;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.data {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.record {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  padding: 0 15px 0 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+}
+
+.record-list {
+  margin-top: 20px;
+  align-items: center;
+}
